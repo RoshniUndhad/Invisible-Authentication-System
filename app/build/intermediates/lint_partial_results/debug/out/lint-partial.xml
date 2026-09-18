@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.invisibleauthenticationsystem.activities.SplashActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/invisibleauthenticationsystem/adapters/DocumentAdapter.kt"
+                            line="57"
+                            column="30"
+                            startOffset="2268"
+                            endLine="57"
+                            endColumn="56"
+                            endOffset="2294"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.app_name"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="2"
+            column="13"
+            startOffset="25"
+            endLine="2"
+            endColumn="28"
+            endOffset="40"/>
+        <location id="R.color.inputTextBg"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="13"
+            column="12"
+            startOffset="456"
+            endLine="13"
+            endColumn="30"
+            endOffset="474"/>
+        <location id="R.anim.zoom_out"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/anim/zoom_out.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="16"
+            endColumn="7"
+            endOffset="539"/>
+        <entry
+            name="model"
+            string="anim[slide_in_right(U),slide_up(U),slide_out_left(U),fade_in(U),zoom_out(D)],attr[colorControlNormal(R),selectableItemBackgroundBorderless(R),colorPrimaryVariant(R)],color[black(U),primaryColor(U),colorAccent(U),safeText(U),backgroundCard(U),white(U),primaryColorDark(U),dangerText(U),inputTextBg(D),warningText(U)],drawable[ic_moon(U),ic_sun(U),ic_fingerprint(U),ic_calculator(U)],id[tilEmail(U),ivThemeToggle(U),tvTitle(U),tvDisplay(U),etPassword(U),tvRegister(U),tilPhone(U),btnDeleteDoc(U),tilPassword(U),tilCalcPin(U),tvLogin(U),tvUserEmail(U),tvAppName(U),cpScoreRing(U),tvUserName(U),etFullName(U),etPhone(U),switchBiometric(U),btnLogout(U),tvSubtitle(U),ivDocIcon(U),etEmail(U),btnUpload(U),btnEquals(D),btnRegister(U),tvRiskLevel(U),btnBiometricLogin(U),btnLogin(U),rvDocuments(U),ivLogo(U),tvDocName(U),tilOtp(U),etOtp(U),cvScore(U),tvScoreValue(U),tvHint(D),btnVerifyOtp(U),tilFullName(U),llDocsHeader(U),etCalcPin(U)],layout[activity_otp(U),activity_calculator(U),activity_dashboard(U),activity_login(U),activity_registration(U),item_document(U),activity_splash(U)],string[app_name(D)],style[Widget_MaterialComponents_Button(R),CalculatorButton(U),CalculatorButton_Operator(U),CalculatorButton_Utility(U),CalculatorButton_Number(U),Widget_MaterialComponents_Button_TextButton(R),Theme_InvisibleAuthenticationApp(U),Theme_MaterialComponents_DayNight_NoActionBar(R),Widget_MaterialComponents_Button_OutlinedButton(R),Widget_MaterialComponents_TextInputLayout_OutlinedBox(R)],xml[file_paths(U)];12^5,13^5,14^5,3e^c^6^12^11^18^29^4f^35^1f^3a,3f^8^19^49^48^4a,40^c^6^12^e^8^18^24^f^4b^21^b^37^4e^3c,41^c^6^12^e^18^29^4f^16^14^31^4e^9,42^c^6^12^e^18^29^4f^3b^16^1c^1e^1f^27^9^2e,43^8^1d^2a^6^f,44^c^15^22^e^33,47^46,48^47,49^47,4a^47,4c^4d^9^e^d^a^7;;;"/>
+    </map>
+
+</incidents>

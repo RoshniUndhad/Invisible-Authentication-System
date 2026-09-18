@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activities.CalculatorActivity">
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#1C1C1C"
+        android:gravity="bottom|end"
+        android:padding="24dp"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        app:layout_constraintHeight_percent="0.35"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDisplay">
+
+        <!-- Row 1 -->
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Utility"
+            android:text="AC" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Utility"
+            android:text="+/-" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Utility"
+            android:text="%" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Operator"
+            android:text="÷" />
+
+        <!-- Row 2 -->
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="7" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="8" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="9" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Operator"
+            android:text="×" />
+
+        <!-- Row 3 -->
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="4" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="5" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="6" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Operator"
+            android:text="-" />
+
+        <!-- Row 4 -->
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="1" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="2" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="3" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Operator"
+            android:text="+" />
+
+        <!-- Row 5 -->
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:text="0" />
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalculatorButton.Number"
+            android:text="." />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEquals"
+            style="@style/CalculatorButton.Operator"
+            android:text="=" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

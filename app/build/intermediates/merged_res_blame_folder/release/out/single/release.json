@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/anim_slide_in_right.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/layout_activity_otp.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/layout/activity_otp.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/layout_activity_login.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/drawable_ic_sun.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/drawable/ic_sun.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/layout_activity_calculator.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/layout/activity_calculator.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/drawable_ic_calculator.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/drawable/ic_calculator.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/anim_slide_out_left.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/drawable_ic_fingerprint.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/drawable/ic_fingerprint.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/anim_fade_in.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/layout_activity_splash.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/xml_file_paths.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/anim_zoom_out.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/anim/zoom_out.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/layout_item_document.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/layout/item_document.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/anim_slide_up.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/layout_activity_dashboard.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/layout_activity_registration.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.example.invisibleauthenticationsystem.app-merged_res-32:/drawable_ic_moon.xml.flat",
+        "source": "com.example.invisibleauthenticationsystem.app-main-33:/drawable/ic_moon.xml"
+    }
+]

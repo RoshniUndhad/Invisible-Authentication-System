@@ -1,0 +1,14 @@
+<resources>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF121212</color>
+    <color name="primaryColor">#90CAF9</color>
+    <color name="primaryColorDark">#42A5F5</color>
+    <color name="colorAccent">#F48FB1</color>
+    
+    <color name="dangerText">#E57373</color>
+    <color name="warningText">#FFB74D</color>
+    <color name="safeText">#81C784</color>
+    
+    <color name="backgroundCard">#1E1E1E</color>
+    <color name="inputTextBg">#2C2C2C</color>
+</resources>
